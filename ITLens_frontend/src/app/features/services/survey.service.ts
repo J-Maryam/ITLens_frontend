@@ -8,7 +8,7 @@ import { Survey } from '../models/survey';
 })
 export class SurveyService {
 
-  private apiUrl = 'https://api.example.com/surveys'; 
+  private apiUrl = 'http://localhost:8080/api/v1/owners'; 
 
   constructor(private http: HttpClient) { }
 
